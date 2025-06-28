@@ -2,7 +2,7 @@ body {
   margin: 0;
   font-family: Arial, sans-serif;
   background: #333339;
-  color: #2d2929;
+  color: #d8d4d4;
 }
 
 .container {
@@ -57,7 +57,7 @@ h1 {
 }
 
 .notification.read {
-  background-color: #080a0b;
+  background-color: #1f2021;
   font-weight: normal;
 }
 
@@ -81,7 +81,7 @@ h1 {
 }
 
 .mark-read-btn {
-  background-color: #0a58ca;
+  background-color: #438ff3;
   color: white;
   border: none;
   padding: 8px 14px;
@@ -92,13 +92,13 @@ h1 {
 
 .mark-read-btn:hover,
 .mark-read-btn:focus {
-  background-color: #084298;
+  background-color: #0155d3;
   outline: none;
 }
 
 p1
 {
-    color:#0a58ca;
+    color:#3c84f0;
 }
 
 .unread-dot
@@ -117,7 +117,7 @@ p1
 
 }
 .highlight {
-  color: #0a58ca;
+  color: #089eee;
 }
 
 .notification {
@@ -130,7 +130,7 @@ p1
 }
 
 .message-preview {
-  background-color: #38a4e7;
+  background-color: #4ab5f8;
   padding: 10px;
   border-radius: 6px;
   margin-top: 5px;
@@ -138,8 +138,10 @@ p1
   color: #eddfdf;
 }
 .message-preview:hover{
-  background-color: #084298;
+  background-color: #4286ed;
 }
 
+
+  
 
   
