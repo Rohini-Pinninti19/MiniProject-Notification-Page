@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>InstaClone</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <style>
+    body {
+      margin: 0;
+      font-family: sans-serif;
+      background: linear-gradient(to right, #fa5ae2, #57e5f4);
+      color: #333;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .nav-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px 40px;
+    }
+
+    .nav-bar a {
+      text-decoration: none;
+      color: white;
+      font-size: 20px;
+      background: #525fee;
+      padding: 15px 16px;
+      border-radius: 18px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .nav-bar a:hover {
+      background: #2803ff;
+    }
+
+    .notification-bell:hover {
+      color: #ffc107;
+      transform: scale(1.2);
+    }
+
+    .center-text {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      text-align: center;
+    }
+
+    h1 {
+      margin: 10px;
+      color: #3f3f3f;
+      text-shadow: 1px 1px 2px white;
+    }
+  </style>
+</head>
+<body>
+  <div class="nav-bar">
+    <a href="#">Home</a>
+    <a href="#">Explore</a>
+    <a href="#">Profile</a>
+    <a href="doc.html" class="notification-bell" title="Notifications">
+      <i class="fas fa-bell"></i>
+    </a>
+  </div>
+
+  <div class="center-text">
+    <h1>Welcome to InstaClone!</h1>
+    <h1>Click the bell icon for Notifications</h1>
+  </div>
+</body>
+</html>
+
